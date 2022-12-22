@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+body {
+    background-image: url("../image/background.png");
+    text-align: center;
+    background-size: 100%;
+    font-family: 'Fira Code', serif;
+    font-size: 20px;
+    background-attachment: fixed;
+}
+
+.button {
+    outline: none;
+    display: inline-block;
+    width: 140px;
+
+    line-height: 45px;
+    border-radius: 45px;
+    margin: 30px 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #484648;
+    background: #e6e4fc;
+    box-shadow: 0 8px 15px rgba(0,0,0,.1);
+    transition: .3s;
+}
+.button:hover {
+    background: #484648;
+    text-align: center;
+    box-shadow: 0 15px 20px rgba(0,0,0,.4);
+    color: #e6e4fc;
+    transform: translateY(-7px);
+}
+
+.littleButton{
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    width: 70px;
+    height: 45px;
+    line-height: 20px;
+    border-radius: 10px;
+    margin: 15px 10px;
+    font-size: 7px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #484648;
+    background: #e6e4fc;
+    box-shadow: 0 4px 7px rgba(0,0,0,.1);
+    transition: .3s;
+}
+.littleButton:hover {
+    background: #484648;
+    text-align: center;
+    box-shadow: 0 7px 10px rgba(0,0,0,.4);
+    color: black;
+    transform: translateY(-7px);
+}
+
+
+input {
+    outline:none;
+}
+
+.heading {
+    background-image: url("../image/back.png");
+    text-align: center;
+    font-family: 'Fira Code', serif;
+    border : 1px solid #888;
+    color: #e6e4fc;
+    font-size: 2.5em;
+    font-weight: normal;
+    padding: 10px 40px;
+    display: block;
+    margin: 0px;
+    line-height: 2;
+}
+
+.littleHeading {
+    color: white;
+    font-family: 'Fira Code', serif;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 72px;
+    margin: 0 0 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.productBox{
+    margin: 10px auto;
+    padding: 5px;
+    text-align: center;
+    width: 60%;
+    height: 80%;
+    border : 1px solid #888;
+    background: rgb(255, 255, 255);
+    color: #484648;
+    outline:none;
+    resize: none;
+}
+
+.productDescription{
+    background: white;
+    color: black;
+    border: 1px solid rebeccapurple;
+    width: 85%;
+    margin: 5px;
+    box-sizing: content-box;
+    font-family: 'Fira Code', serif;
+    outline:none;
+    resize: none;
+}
+
+.colorForText{
+    color: black;
+}
+.fontForText{
+    font-family: 'Fira Code', serif;
+    font-style: normal;
+}

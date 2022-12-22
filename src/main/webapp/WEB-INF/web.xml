@@ -1,0 +1,17 @@
+<web-app>
+    <!-- включает подробные сообщения об ошибках и страницу debug -->
+
+    <context-param>
+        <param-name>debug</param-name>
+        <param-value>true</param-value>
+    </context-param>
+
+
+    <!-- полный путь к файлу БД -->
+
+    <servlet>
+        <servlet-name>kuruBoards</servlet-name>
+        <servlet-class>kuruBoards.WebShopServlet</servlet-class>
+    </servlet>
+
+</web-app>
